@@ -127,7 +127,6 @@ def getAboutText():
     AboutText += _('GStreamer:\t%s') % about.getGStreamerVersionString() + '\n'
     AboutText += _('Python:\t%s') % about.getPythonVersionString() + '\n'
     AboutText += _('Developer:\tAyman') + '\n\n'
-    AboutText += _('Thank You:\tpop1234') + '\n\n'
     fp_version = getFPVersion()
     if fp_version is None:
         fp_version = ''
