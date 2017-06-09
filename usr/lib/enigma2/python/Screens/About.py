@@ -126,7 +126,8 @@ def getAboutText():
     AboutText += _('Drivers:\t%s') % driversdate + '\n'
     AboutText += _('GStreamer:\t%s') % about.getGStreamerVersionString() + '\n'
     AboutText += _('Python:\t%s') % about.getPythonVersionString() + '\n'
-    AboutText += _('Moderator:\tSODO') + '\n\n'
+    AboutText += _('Developer:\tAyman') + '\n\n'
+    AboutText += _('Thank You:\tpop1234') + '\n\n'
     fp_version = getFPVersion()
     if fp_version is None:
         fp_version = ''
