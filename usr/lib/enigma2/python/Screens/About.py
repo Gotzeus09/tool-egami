@@ -116,7 +116,6 @@ def getAboutText():
         AboutText += _('Selected Image:\t%s') % 'STARTUP_' + image + bootname + '\n'
     AboutText += _('Version:\t%s') % about.getImageVersionString() + '\n'
     AboutText += _('Kernel:\t%s') % about.getKernelVersionString() + '\n'
-    AboutText += _('Oe-Core:\t%s') % about.getEnigmaVersionString() + '\n'
     AboutText += _('Skin name:\t%s\n') % config.skin.primary_skin.value[0:-9]
     string = getDriverDate()
     year = string[0:4]
@@ -127,6 +126,7 @@ def getAboutText():
     AboutText += _('GStreamer:\t%s') % about.getGStreamerVersionString() + '\n'
     AboutText += _('Python:\t%s') % about.getPythonVersionString() + '\n'
     AboutText += _('Developer:\tAyman') + '\n\n'
+    AboutText += _('E-mail:\ta.gotzeus@gmail.com') + '\n\n'
     fp_version = getFPVersion()
     if fp_version is None:
         fp_version = ''
