@@ -117,6 +117,7 @@ def getAboutText():
     AboutText += _('Version:\t%s') % about.getImageVersionString() + '\n'
     AboutText += _('Kernel:\t%s') % about.getKernelVersionString() + '\n'
     AboutText += _('Skin name:\t%s\n') % config.skin.primary_skin.value[0:-9]
+    AboutText += _('Oe-Core:\t%s') % getOEVersion() + "\n"
     AboutText += _('E-mail:\ta.gotzeus@gmail.com') + '\n\n'
     string = getDriverDate()
     year = string[0:4]
